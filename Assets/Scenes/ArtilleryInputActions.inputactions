@@ -1,0 +1,63 @@
+{
+    "name": "ArtilleryInputActions",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "d709fbde-06ea-4887-acc3-18b99e11b438",
+            "actions": [
+                {
+                    "name": "Fire",
+                    "type": "Button",
+                    "id": "baaab0a8-7a77-464e-948b-479eb12fd9c3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Rotate",
+                    "type": "Button",
+                    "id": "7cae4836-d175-46cc-a9f6-d7ee1280bc07",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "58d2f437-4155-428a-bf4b-13302dc0c22d",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c2b3907c-10ea-43fd-a010-f47e98b25c0d",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7fdce72a-6fe0-41e4-9f5a-7bcc5f7982cf",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

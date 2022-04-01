@@ -2,7 +2,7 @@
     "name": "ArtilleryInputActions",
     "maps": [
         {
-            "name": "Player",
+            "name": "Artillery",
             "id": "d709fbde-06ea-4887-acc3-18b99e11b438",
             "actions": [
                 {
@@ -18,6 +18,22 @@
                     "type": "Button",
                     "id": "7cae4836-d175-46cc-a9f6-d7ee1280bc07",
                     "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "MouseLook",
+                    "type": "PassThrough",
+                    "id": "26b571ae-a5a6-4574-a3b6-97801b534533",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "MouseScroll",
+                    "type": "PassThrough",
+                    "id": "e495820a-2e5a-4f3a-a8b4-7eba7b1682ad",
+                    "expectedControlType": "Axis",
                     "processors": "",
                     "interactions": ""
                 }
@@ -53,6 +69,28 @@
                     "processors": "",
                     "groups": "",
                     "action": "Rotate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2be24bad-23ec-4a71-a983-38d9e4119b22",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MouseLook",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fe767352-961d-4ce0-92ec-7c5ec257469c",
+                    "path": "<Mouse>/scroll/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MouseScroll",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

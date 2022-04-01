@@ -9,7 +9,7 @@ public class Cylinder : MonoBehaviour
     public void Rotate(InputAction.CallbackContext context) {
         Debug.Log("Cylinder rotating!!");
         if (context.performed) {
-            transform.Rotate(5, 0, 0);
+            transform.Rotate(0, 5, 0);
         }
 
 

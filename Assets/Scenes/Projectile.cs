@@ -6,6 +6,8 @@ using UnityEngine.InputSystem;
 
 public class Projectile : MonoBehaviour
 {
+    [SerializeField]
+    private float fireSpeed = 30f;
 
     private Rigidbody projectileRigidbody;
 
@@ -14,7 +16,7 @@ public class Projectile : MonoBehaviour
     }
     public void Fire(InputAction.CallbackContext context) {
         if (context.performed) {
-            projectileRigidbody.AddRelativeForce(Vector3.down * 30f, ForceMode.Impulse);
+            projectileRigidbody.AddRelativeForce(Vector3.down * fireSpeed, ForceMode.Impulse);
         }
     }
 

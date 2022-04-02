@@ -848,6 +848,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36711949a2f738f048d2c8ee4e6dd00b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fireSpeed: 50
 --- !u!114 &1145511624
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -895,12 +896,8 @@ MonoBehaviour:
     m_ActionName: Player/Rotate[/Keyboard/upArrow,/Keyboard/downArrow]
   - m_PersistentCalls:
       m_Calls: []
-    m_ActionId: 26b571ae-a5a6-4574-a3b6-97801b534533
-    m_ActionName: Artillery/MouseLook[/Mouse/delta]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: e495820a-2e5a-4f3a-a8b4-7eba7b1682ad
-    m_ActionName: Artillery/MouseScroll[/Mouse/scroll/y]
+    m_ActionId: bd99ff76-a81e-40f0-bc04-b386cd752253
+    m_ActionName: Artillery/RotateDown[/Keyboard/downArrow]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Artillery

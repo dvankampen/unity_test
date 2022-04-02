@@ -14,7 +14,7 @@
                     "interactions": ""
                 },
                 {
-                    "name": "Rotate",
+                    "name": "RotateUp",
                     "type": "Button",
                     "id": "7cae4836-d175-46cc-a9f6-d7ee1280bc07",
                     "expectedControlType": "Button",
@@ -34,6 +34,14 @@
                     "type": "PassThrough",
                     "id": "e495820a-2e5a-4f3a-a8b4-7eba7b1682ad",
                     "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "RotateDown",
+                    "type": "Button",
+                    "id": "bd99ff76-a81e-40f0-bc04-b386cd752253",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
                 }
@@ -57,18 +65,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Rotate",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "7fdce72a-6fe0-41e4-9f5a-7bcc5f7982cf",
-                    "path": "<Keyboard>/downArrow",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Rotate",
+                    "action": "RotateUp",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -91,6 +88,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "MouseScroll",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6232085c-8a42-4206-8a8a-e2db0ebca704",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotateDown",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

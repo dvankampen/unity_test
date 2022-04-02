@@ -22,22 +22,6 @@
                     "interactions": ""
                 },
                 {
-                    "name": "MouseLook",
-                    "type": "PassThrough",
-                    "id": "26b571ae-a5a6-4574-a3b6-97801b534533",
-                    "expectedControlType": "Vector2",
-                    "processors": "",
-                    "interactions": ""
-                },
-                {
-                    "name": "MouseScroll",
-                    "type": "PassThrough",
-                    "id": "e495820a-2e5a-4f3a-a8b4-7eba7b1682ad",
-                    "expectedControlType": "Axis",
-                    "processors": "",
-                    "interactions": ""
-                },
-                {
                     "name": "RotateDown",
                     "type": "Button",
                     "id": "bd99ff76-a81e-40f0-bc04-b386cd752253",
@@ -49,8 +33,8 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "58d2f437-4155-428a-bf4b-13302dc0c22d",
-                    "path": "<Mouse>/leftButton",
+                    "id": "b3dc7be8-5b58-4006-a008-0c12702f8341",
+                    "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -66,28 +50,6 @@
                     "processors": "",
                     "groups": "",
                     "action": "RotateUp",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "2be24bad-23ec-4a71-a983-38d9e4119b22",
-                    "path": "<Mouse>/delta",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "MouseLook",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "fe767352-961d-4ce0-92ec-7c5ec257469c",
-                    "path": "<Mouse>/scroll/y",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "MouseScroll",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
